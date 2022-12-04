@@ -1,0 +1,12 @@
+
+
+"app_name" = "Instagram";
+"email" = "Electron Pochta";
+"password" = "Kirish Kodi";
+"cpassword" = "Parolni tasdiqlash";
+"sign_in" = "Kirish";
+"sign_up" = "Kirish";
+"fullname" = "Ism va familiya";
+"dont_have_account" = "Hisob mavjud emasmi?";
+"already_have_account" = "Hisob mavjud?";
+

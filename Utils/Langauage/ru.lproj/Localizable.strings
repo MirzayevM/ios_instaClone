@@ -1,0 +1,11 @@
+
+
+"app_name" = "Инстаграм";
+"email" = "Эл. адрес";
+"password" = "Пароль";
+"cpassword" = "Подтвердить Пароль";
+"fullname" = "ФИО";
+"sign_in" = "Войти";
+"sign_up"= "Зарегистрироваться";
+"dont_have_account" = "У вас нет аккаунта?";
+"already_have_account" = "У вас уже есть аккаунт?";

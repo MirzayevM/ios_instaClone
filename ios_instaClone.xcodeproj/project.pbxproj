@@ -7,13 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31083248401608D44B798D73 /* Pods_ios_instaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123FF21301D8FE5BB34ABFC7 /* Pods_ios_instaClone.framework */; };
+		3F1159E05CBD2CA4F33762AF /* Pods_ios_instaCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7334013326822B34018A1C43 /* Pods_ios_instaCloneTests.framework */; };
+		7A3BDE0E0E512A5D0D13040A /* Pods_ios_instaClone_ios_instaCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1360D921A69C98007C9BA3E2 /* Pods_ios_instaClone_ios_instaCloneUITests.framework */; };
+		962D6ED6291D1C29007576C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 962D6ED5291D1C29007576C9 /* GoogleService-Info.plist */; };
+		962D6ED8291D2803007576C9 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D6ED7291D2803007576C9 /* SignInViewModel.swift */; };
+		962D6EDA291D2AB2007576C9 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D6ED9291D2AB2007576C9 /* SignUpViewModel.swift */; };
+		9681A1202913D6060026D362 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9681A1222913D6060026D362 /* Localizable.strings */; };
+		9681A1252913DBBD0026D362 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9681A1242913DB940026D362 /* Billabong.ttf */; };
 		96878C4629112CB200E8327B /* ios_instaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C4529112CB200E8327B /* ios_instaCloneApp.swift */; };
-		96878C4829112CB200E8327B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C4729112CB200E8327B /* ContentView.swift */; };
 		96878C4A29112CB700E8327B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96878C4929112CB700E8327B /* Assets.xcassets */; };
 		96878C4D29112CB700E8327B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96878C4C29112CB700E8327B /* Preview Assets.xcassets */; };
 		96878C5729112CB800E8327B /* ios_instaCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C5629112CB800E8327B /* ios_instaCloneTests.swift */; };
 		96878C6129112CB800E8327B /* ios_instaCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C6029112CB800E8327B /* ios_instaCloneUITests.swift */; };
 		96878C6329112CB800E8327B /* ios_instaCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C6229112CB800E8327B /* ios_instaCloneUITestsLaunchTests.swift */; };
+		96878C702911307400E8327B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C6F2911307400E8327B /* SignIn.swift */; };
+		96878C722911309800E8327B /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C712911309800E8327B /* StarterScreen.swift */; };
+		96878C742911359900E8327B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C732911359900E8327B /* Utils.swift */; };
+		96878C7629113B5A00E8327B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96878C7529113B5A00E8327B /* SignUp.swift */; };
+		96894A79291A4E030057CAC3 /* MyPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96894A78291A4E030057CAC3 /* MyPostCell.swift */; };
+		96899FE52932070400C288CB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96899FE42932070400C288CB /* Launch Screen.storyboard */; };
+		968AE0D72917D3C80042A127 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AE0D62917D3C80042A127 /* FeedViewModel.swift */; };
+		968AE0D92917D43B0042A127 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AE0D82917D43B0042A127 /* PostModel.swift */; };
+		968AE0DB2917E66E0042A127 /* FeedPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AE0DA2917E66E0042A127 /* FeedPostCell.swift */; };
+		968AE0DD291833110042A127 /* LikesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AE0DC291833100042A127 /* LikesViewModel.swift */; };
+		968C6C83291581EE00FC6CAB /* Cordinatoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C6C82291581EE00FC6CAB /* Cordinatoor.swift */; };
+		968C6C852915831900FC6CAB /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C6C842915831900FC6CAB /* ImagePickerView.swift */; };
+		968D18CD292DC9BC00546966 /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D18CC292DC9BC00546966 /* UploadViewModel.swift */; };
+		968D18CF292DD7EE00546966 /* LikePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D18CE292DD7EE00546966 /* LikePostCell.swift */; };
+		968E8B71291A30250057BC3F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8B70291A30250057BC3F /* SearchViewModel.swift */; };
+		968E8B73291A34AE0057BC3F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8B72291A34AE0057BC3F /* UserCell.swift */; };
+		968E8B75291A3A490057BC3F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E8B74291A3A490057BC3F /* ProfileViewModel.swift */; };
+		969543F029238FFB002FC884 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969543EF29238FFB002FC884 /* DatabaseService.swift */; };
+		969543F229239135002FC884 /* StorageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969543F129239135002FC884 /* StorageStore.swift */; };
+		969F909929155D9A00D75891 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F909829155D9A00D75891 /* Home.swift */; };
+		969F909C29155FC100D75891 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F909B29155FC100D75891 /* SessionStore.swift */; };
+		969F90A02915607200D75891 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F909F2915607200D75891 /* Users.swift */; };
+		969F90A22915666600D75891 /* HomeFeed.Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F90A12915666600D75891 /* HomeFeed.Screen.swift */; };
+		969F90A42915667E00D75891 /* HomeSearch.Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F90A32915667E00D75891 /* HomeSearch.Screen.swift */; };
+		969F90A62915668C00D75891 /* HomeUpload.Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F90A52915668C00D75891 /* HomeUpload.Screen.swift */; };
+		969F90A8291566AD00D75891 /* HomeLikesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F90A7291566AD00D75891 /* HomeLikesScreen.swift */; };
+		969F90AA291566BD00D75891 /* HomeProfile.Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F90A9291566BD00D75891 /* HomeProfile.Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +68,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		123FF21301D8FE5BB34ABFC7 /* Pods_ios_instaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_instaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1360D921A69C98007C9BA3E2 /* Pods_ios_instaClone_ios_instaCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_instaClone_ios_instaCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7334013326822B34018A1C43 /* Pods_ios_instaCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_instaCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AD1C288F40FE9BE38440C2 /* Pods-ios_instaCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_instaCloneTests.release.xcconfig"; path = "Target Support Files/Pods-ios_instaCloneTests/Pods-ios_instaCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		962D6ED5291D1C29007576C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		962D6ED7291D2803007576C9 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		962D6ED9291D2AB2007576C9 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		964ACBB7293C7B360055CDA5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9681A1212913D6060026D362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9681A1232913D6A00026D362 /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9681A1242913DB940026D362 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		9681A1262913DD880026D362 /* ios-instaClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-instaClone-Info.plist"; sourceTree = SOURCE_ROOT; };
 		96878C4229112CB200E8327B /* ios_instaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_instaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96878C4529112CB200E8327B /* ios_instaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_instaCloneApp.swift; sourceTree = "<group>"; };
-		96878C4729112CB200E8327B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96878C4929112CB700E8327B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96878C4C29112CB700E8327B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96878C5229112CB800E8327B /* ios_instaCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_instaCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +89,38 @@
 		96878C5C29112CB800E8327B /* ios_instaCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_instaCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96878C6029112CB800E8327B /* ios_instaCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_instaCloneUITests.swift; sourceTree = "<group>"; };
 		96878C6229112CB800E8327B /* ios_instaCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_instaCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96878C6F2911307400E8327B /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		96878C712911309800E8327B /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		96878C732911359900E8327B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		96878C7529113B5A00E8327B /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		96894A78291A4E030057CAC3 /* MyPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostCell.swift; sourceTree = "<group>"; };
+		96899FE42932070400C288CB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		968AE0D62917D3C80042A127 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		968AE0D82917D43B0042A127 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		968AE0DA2917E66E0042A127 /* FeedPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostCell.swift; sourceTree = "<group>"; };
+		968AE0DC291833100042A127 /* LikesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewModel.swift; sourceTree = "<group>"; };
+		968C6C82291581EE00FC6CAB /* Cordinatoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinatoor.swift; sourceTree = "<group>"; };
+		968C6C842915831900FC6CAB /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		968D18CC292DC9BC00546966 /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		968D18CE292DD7EE00546966 /* LikePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikePostCell.swift; sourceTree = "<group>"; };
+		968E8B70291A30250057BC3F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		968E8B72291A34AE0057BC3F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		968E8B74291A3A490057BC3F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		969543EF29238FFB002FC884 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		969543F129239135002FC884 /* StorageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageStore.swift; sourceTree = "<group>"; };
+		969F909829155D9A00D75891 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		969F909B29155FC100D75891 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		969F909F2915607200D75891 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		969F90A12915666600D75891 /* HomeFeed.Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeed.Screen.swift; sourceTree = "<group>"; };
+		969F90A32915667E00D75891 /* HomeSearch.Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearch.Screen.swift; sourceTree = "<group>"; };
+		969F90A52915668C00D75891 /* HomeUpload.Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUpload.Screen.swift; sourceTree = "<group>"; };
+		969F90A7291566AD00D75891 /* HomeLikesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLikesScreen.swift; sourceTree = "<group>"; };
+		969F90A9291566BD00D75891 /* HomeProfile.Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProfile.Screen.swift; sourceTree = "<group>"; };
+		A9AE88FE0A04C28E19ABB57C /* Pods-ios_instaCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_instaCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-ios_instaCloneTests/Pods-ios_instaCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1A52C71DCB4828A4F4C9442 /* Pods-ios_instaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_instaClone.release.xcconfig"; path = "Target Support Files/Pods-ios_instaClone/Pods-ios_instaClone.release.xcconfig"; sourceTree = "<group>"; };
+		F7C9550FCE5EB50964E4B81D /* Pods-ios_instaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_instaClone.debug.xcconfig"; path = "Target Support Files/Pods-ios_instaClone/Pods-ios_instaClone.debug.xcconfig"; sourceTree = "<group>"; };
+		F86515D407D226DE8656DD16 /* Pods-ios_instaClone-ios_instaCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_instaClone-ios_instaCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-ios_instaClone-ios_instaCloneUITests/Pods-ios_instaClone-ios_instaCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB3FBE1B81EE06C1AC2FFD7F /* Pods-ios_instaClone-ios_instaCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_instaClone-ios_instaCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios_instaClone-ios_instaCloneUITests/Pods-ios_instaClone-ios_instaCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31083248401608D44B798D73 /* Pods_ios_instaClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1159E05CBD2CA4F33762AF /* Pods_ios_instaCloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +144,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3BDE0E0E512A5D0D13040A /* Pods_ios_instaClone_ios_instaCloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		964ACBB6293C7A8C0055CDA5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				968AE0DA2917E66E0042A127 /* FeedPostCell.swift */,
+				969F909F2915607200D75891 /* Users.swift */,
+				968D18CE292DD7EE00546966 /* LikePostCell.swift */,
+				968E8B72291A34AE0057BC3F /* UserCell.swift */,
+				96894A78291A4E030057CAC3 /* MyPostCell.swift */,
+				968AE0D82917D43B0042A127 /* PostModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9681A11A2913D5610026D362 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				969F90AC2915673200D75891 /* MainScreens */,
+				969F90AB2915671700D75891 /* Home.Screens */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9681A11B2913D57D0026D362 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9681A11C2913D5910026D362 /* appUitil */,
+				9681A11D2913D5AD0026D362 /* Langauage */,
+				96878C732911359900E8327B /* Utils.swift */,
+				968C6C82291581EE00FC6CAB /* Cordinatoor.swift */,
+				968C6C842915831900FC6CAB /* ImagePickerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9681A11C2913D5910026D362 /* appUitil */ = {
+			isa = PBXGroup;
+			children = (
+				9681A1242913DB940026D362 /* Billabong.ttf */,
+				96878C4929112CB700E8327B /* Assets.xcassets */,
+				96878C4529112CB200E8327B /* ios_instaCloneApp.swift */,
+				96899FE42932070400C288CB /* Launch Screen.storyboard */,
+			);
+			path = appUitil;
+			sourceTree = "<group>";
+		};
+		9681A11D2913D5AD0026D362 /* Langauage */ = {
+			isa = PBXGroup;
+			children = (
+				9681A1222913D6060026D362 /* Localizable.strings */,
+			);
+			path = Langauage;
+			sourceTree = "<group>";
+		};
 		96878C3929112CB200E8327B = {
 			isa = PBXGroup;
 			children = (
+				969F909E2915606700D75891 /* model */,
+				969F909A29155FA300D75891 /* services */,
+				9681A11B2913D57D0026D362 /* Utils */,
+				9681A11A2913D5610026D362 /* Screens */,
 				96878C4429112CB200E8327B /* ios_instaClone */,
 				96878C5529112CB800E8327B /* ios_instaCloneTests */,
 				96878C5F29112CB800E8327B /* ios_instaCloneUITests */,
 				96878C4329112CB200E8327B /* Products */,
+				DD42833C51DB19304087316A /* Pods */,
+				A38639BD65F3CF1E113A10D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +233,8 @@
 		96878C4429112CB200E8327B /* ios_instaClone */ = {
 			isa = PBXGroup;
 			children = (
-				96878C4529112CB200E8327B /* ios_instaCloneApp.swift */,
-				96878C4729112CB200E8327B /* ContentView.swift */,
-				96878C4929112CB700E8327B /* Assets.xcassets */,
+				9681A1262913DD880026D362 /* ios-instaClone-Info.plist */,
+				962D6ED5291D1C29007576C9 /* GoogleService-Info.plist */,
 				96878C4B29112CB700E8327B /* Preview Content */,
 			);
 			path = ios_instaClone;
@@ -127,6 +265,85 @@
 			path = ios_instaCloneUITests;
 			sourceTree = "<group>";
 		};
+		968AE0D52917D3B30042A127 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				968AE0D62917D3C80042A127 /* FeedViewModel.swift */,
+				968AE0DC291833100042A127 /* LikesViewModel.swift */,
+				968E8B70291A30250057BC3F /* SearchViewModel.swift */,
+				968E8B74291A3A490057BC3F /* ProfileViewModel.swift */,
+				962D6ED7291D2803007576C9 /* SignInViewModel.swift */,
+				962D6ED9291D2AB2007576C9 /* SignUpViewModel.swift */,
+				968D18CC292DC9BC00546966 /* UploadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		969F909A29155FA300D75891 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				969F909B29155FC100D75891 /* SessionStore.swift */,
+				969543EF29238FFB002FC884 /* DatabaseService.swift */,
+				969543F129239135002FC884 /* StorageStore.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		969F909E2915606700D75891 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				964ACBB6293C7A8C0055CDA5 /* Cells */,
+				968AE0D52917D3B30042A127 /* ViewModel */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		969F90AB2915671700D75891 /* Home.Screens */ = {
+			isa = PBXGroup;
+			children = (
+				969F90A32915667E00D75891 /* HomeSearch.Screen.swift */,
+				969F90A52915668C00D75891 /* HomeUpload.Screen.swift */,
+				969F90A7291566AD00D75891 /* HomeLikesScreen.swift */,
+				969F90A9291566BD00D75891 /* HomeProfile.Screen.swift */,
+				969F90A12915666600D75891 /* HomeFeed.Screen.swift */,
+			);
+			path = Home.Screens;
+			sourceTree = "<group>";
+		};
+		969F90AC2915673200D75891 /* MainScreens */ = {
+			isa = PBXGroup;
+			children = (
+				96878C712911309800E8327B /* StarterScreen.swift */,
+				96878C6F2911307400E8327B /* SignIn.swift */,
+				96878C7529113B5A00E8327B /* SignUp.swift */,
+				969F909829155D9A00D75891 /* Home.swift */,
+			);
+			path = MainScreens;
+			sourceTree = "<group>";
+		};
+		A38639BD65F3CF1E113A10D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123FF21301D8FE5BB34ABFC7 /* Pods_ios_instaClone.framework */,
+				1360D921A69C98007C9BA3E2 /* Pods_ios_instaClone_ios_instaCloneUITests.framework */,
+				7334013326822B34018A1C43 /* Pods_ios_instaCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD42833C51DB19304087316A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C9550FCE5EB50964E4B81D /* Pods-ios_instaClone.debug.xcconfig */,
+				B1A52C71DCB4828A4F4C9442 /* Pods-ios_instaClone.release.xcconfig */,
+				FB3FBE1B81EE06C1AC2FFD7F /* Pods-ios_instaClone-ios_instaCloneUITests.debug.xcconfig */,
+				F86515D407D226DE8656DD16 /* Pods-ios_instaClone-ios_instaCloneUITests.release.xcconfig */,
+				A9AE88FE0A04C28E19ABB57C /* Pods-ios_instaCloneTests.debug.xcconfig */,
+				73AD1C288F40FE9BE38440C2 /* Pods-ios_instaCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96878C6629112CB800E8327B /* Build configuration list for PBXNativeTarget "ios_instaClone" */;
 			buildPhases = (
+				1B18C1C2E0EB8C42A27766D1 /* [CP] Check Pods Manifest.lock */,
 				96878C3E29112CB200E8327B /* Sources */,
 				96878C3F29112CB200E8327B /* Frameworks */,
 				96878C4029112CB200E8327B /* Resources */,
+				7E48AD1E7426354229F4078F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +370,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96878C6929112CB800E8327B /* Build configuration list for PBXNativeTarget "ios_instaCloneTests" */;
 			buildPhases = (
+				368637595CB6F1B6D4BECF40 /* [CP] Check Pods Manifest.lock */,
 				96878C4E29112CB800E8327B /* Sources */,
 				96878C4F29112CB800E8327B /* Frameworks */,
 				96878C5029112CB800E8327B /* Resources */,
@@ -169,9 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96878C6C29112CB800E8327B /* Build configuration list for PBXNativeTarget "ios_instaCloneUITests" */;
 			buildPhases = (
+				CED2211EBC54D4E1301FF226 /* [CP] Check Pods Manifest.lock */,
 				96878C5829112CB800E8327B /* Sources */,
 				96878C5929112CB800E8327B /* Frameworks */,
 				96878C5A29112CB800E8327B /* Resources */,
+				D991DAFFD86CFA14B94ED239 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +435,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"uz-UZ",
+				ru,
 			);
 			mainGroup = 96878C3929112CB200E8327B;
 			productRefGroup = 96878C4329112CB200E8327B /* Products */;
@@ -231,8 +455,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96899FE52932070400C288CB /* Launch Screen.storyboard in Resources */,
 				96878C4D29112CB700E8327B /* Preview Assets.xcassets in Resources */,
+				9681A1202913D6060026D362 /* Localizable.strings in Resources */,
+				962D6ED6291D1C29007576C9 /* GoogleService-Info.plist in Resources */,
 				96878C4A29112CB700E8327B /* Assets.xcassets in Resources */,
+				9681A1252913DBBD0026D362 /* Billabong.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +480,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B18C1C2E0EB8C42A27766D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_instaClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		368637595CB6F1B6D4BECF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_instaCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E48AD1E7426354229F4078F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_instaClone/Pods-ios_instaClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_instaClone/Pods-ios_instaClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_instaClone/Pods-ios_instaClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED2211EBC54D4E1301FF226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_instaClone-ios_instaCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D991DAFFD86CFA14B94ED239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_instaClone-ios_instaCloneUITests/Pods-ios_instaClone-ios_instaCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_instaClone-ios_instaCloneUITests/Pods-ios_instaClone-ios_instaCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_instaClone-ios_instaCloneUITests/Pods-ios_instaClone-ios_instaCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96878C3E29112CB200E8327B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96878C4829112CB200E8327B /* ContentView.swift in Sources */,
+				969F90A02915607200D75891 /* Users.swift in Sources */,
+				96878C742911359900E8327B /* Utils.swift in Sources */,
+				969F909C29155FC100D75891 /* SessionStore.swift in Sources */,
+				96894A79291A4E030057CAC3 /* MyPostCell.swift in Sources */,
+				96878C7629113B5A00E8327B /* SignUp.swift in Sources */,
+				969543F229239135002FC884 /* StorageStore.swift in Sources */,
+				968AE0D92917D43B0042A127 /* PostModel.swift in Sources */,
+				968AE0DB2917E66E0042A127 /* FeedPostCell.swift in Sources */,
+				968C6C852915831900FC6CAB /* ImagePickerView.swift in Sources */,
+				96878C702911307400E8327B /* SignIn.swift in Sources */,
+				969F90A8291566AD00D75891 /* HomeLikesScreen.swift in Sources */,
+				969F90A42915667E00D75891 /* HomeSearch.Screen.swift in Sources */,
 				96878C4629112CB200E8327B /* ios_instaCloneApp.swift in Sources */,
+				968C6C83291581EE00FC6CAB /* Cordinatoor.swift in Sources */,
+				969F90AA291566BD00D75891 /* HomeProfile.Screen.swift in Sources */,
+				969F90A22915666600D75891 /* HomeFeed.Screen.swift in Sources */,
+				968AE0DD291833110042A127 /* LikesViewModel.swift in Sources */,
+				969F909929155D9A00D75891 /* Home.swift in Sources */,
+				96878C722911309800E8327B /* StarterScreen.swift in Sources */,
+				968AE0D72917D3C80042A127 /* FeedViewModel.swift in Sources */,
+				968E8B75291A3A490057BC3F /* ProfileViewModel.swift in Sources */,
+				968D18CF292DD7EE00546966 /* LikePostCell.swift in Sources */,
+				968D18CD292DC9BC00546966 /* UploadViewModel.swift in Sources */,
+				962D6ED8291D2803007576C9 /* SignInViewModel.swift in Sources */,
+				968E8B71291A30250057BC3F /* SearchViewModel.swift in Sources */,
+				969543F029238FFB002FC884 /* DatabaseService.swift in Sources */,
+				962D6EDA291D2AB2007576C9 /* SignUpViewModel.swift in Sources */,
+				969F90A62915668C00D75891 /* HomeUpload.Screen.swift in Sources */,
+				968E8B73291A34AE0057BC3F /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +652,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		9681A1222913D6060026D362 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9681A1212913D6060026D362 /* en */,
+				9681A1232913D6A00026D362 /* uz-UZ */,
+				964ACBB7293C7B360055CDA5 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		96878C6429112CB800E8327B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +731,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -411,6 +784,7 @@
 		};
 		96878C6729112CB800E8327B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C9550FCE5EB50964E4B81D /* Pods-ios_instaClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,9 +793,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ios_instaClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-instaClone-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = instaClone;
+				INFOPLIST_KEY_NSCameraUsageDescription = "you can take photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "you can choose photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -439,6 +818,7 @@
 		};
 		96878C6829112CB800E8327B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A52C71DCB4828A4F4C9442 /* Pods-ios_instaClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,9 +827,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ios_instaClone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-instaClone-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = instaClone;
+				INFOPLIST_KEY_NSCameraUsageDescription = "you can take photo";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "you can choose photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +852,7 @@
 		};
 		96878C6A29112CB800E8327B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9AE88FE0A04C28E19ABB57C /* Pods-ios_instaCloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +872,7 @@
 		};
 		96878C6B29112CB800E8327B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AD1C288F40FE9BE38440C2 /* Pods-ios_instaCloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +892,7 @@
 		};
 		96878C6D29112CB800E8327B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3FBE1B81EE06C1AC2FFD7F /* Pods-ios_instaClone-ios_instaCloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +910,7 @@
 		};
 		96878C6E29112CB800E8327B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86515D407D226DE8656DD16 /* Pods-ios_instaClone-ios_instaCloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
