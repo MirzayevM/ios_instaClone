@@ -1,0 +1,11 @@
+
+
+"app_name" = "Instagram";
+"email" = "Email";
+"password" = "Password";
+"cpassword" = "Confirm Password";
+"fullname" = "Fullname";
+"sign_in" = "Sign In";
+"sign_up"= "SIgn Up";
+"dont_have_account" = "Don't have an accaount ?";
+"already_have_account" = "Already have an account ?";
